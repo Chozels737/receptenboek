@@ -1,0 +1,29 @@
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 50px;
+    padding: 0 20px;
+  }
+  
+  .left-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .right-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .logo {
+    flex: 1;
+    text-align: center;
+  }
+  
