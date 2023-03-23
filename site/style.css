@@ -66,13 +66,14 @@ main{
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
+  
 }
 
 .flex-container > div {
   display: flex;
   align-items: center;
   background-color: #c20000;
-  margin: 10px;
+  margin: 1cm;
   padding: 20px;
   font-size: 30px;
 }
