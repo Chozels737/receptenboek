@@ -5,24 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<div class="taskbar">
-  <div class="left-buttons">
-    <button>knop 1</button>
-    <button>knop 2</button>
-    <button>knop 3</button>
-  </div>
-  <div class="logo">
-    <h1>Food Tech</h1>
-  </div>
-  <div class="right-buttons">
-    <button>knop 4</button>
-    <button>knop 5</button>
-  </div>
+    <header>
+        <img class="logo" src="/images/logo.png" />
+        <nav>
+          <ul class="nav__links">
+            <li><a href="index.php">contact</a></li>
+            <li><a href="index.php">contact</a></li>
+            <li><a href="index.php">contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+      </header> 
+<div class="flex-container">
+  <div>1<img class="logo" src="/images/logo.png" /></div>
+  <div>2<img class="logo" src="/images/logo.png" /></div>
+  <div>3<img class="logo" src="/images/logo.png" /></div>  
 </div>
+<div class="flex-container">
+<div>1<img class="logo" src="/images/logo.png" /></div>
+<div>2<img class="logo" src="/images/logo.png" /></div>
+</div>
+
+
+
+
+
+
 
 </body>
 </html>
