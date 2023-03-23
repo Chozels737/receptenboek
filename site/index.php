@@ -16,7 +16,9 @@ $result = mysqli_query($conn, $sql);
  * voor bijvoorbeeld producten $all_products heten.
  * Maar dit kies je zelf
  */
+
 $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
