@@ -39,11 +39,20 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
   <?php foreach ($all_recepten as $recept) : ?>
 
     <div class="recept-blok">
-      <h3>Hier een titel</h3>
+<div class="naam">
+  <h3><?php echo $recept["naam"] ?></h3>
+</div>
       <img src="images/<?php echo $recept["plaatje"] ?>">
+
+
   </div>
 
   <?php endforeach  ?>
+
+
+
+
+
 
 </body>
 </html>
