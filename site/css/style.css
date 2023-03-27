@@ -59,13 +59,13 @@ button:hover {
 }
 
 main{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: auto;
 }
 
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: white;
   width: 100%;
   gap:30px;
   justify-content: center;  
@@ -76,21 +76,27 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #c20000;
+  background-color: white;
   padding: 20px;
   font-size: 30px;
-
   height: 100%;
- 
 }
 
 
 .flex-container img{
   max-width: 245px;
+  border-radius: 10px;
 }
 
 .banner {
   width: 100%;
   height: 220px;
   background-position: center;
+}
+.naam{
+background-color: white;
+}
+
+body{
+  background-color: white;
 }

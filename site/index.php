@@ -43,16 +43,12 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
   <h3><?php echo $recept["naam"] ?></h3>
 </div>
       <img src="images/<?php echo $recept["plaatje"] ?>">
-
-
   </div>
 
   <?php endforeach  ?>
 
 
 
-
-
-
+  
 </body>
 </html>
