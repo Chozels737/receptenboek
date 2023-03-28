@@ -73,6 +73,7 @@ main{
 }
 
 .flex-container > div {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,12 +86,12 @@ main{
 
 .flex-container img{
   max-width: 245px;
-  border-radius: 10px;
+  border-radius: 10px; 
 }
 
 .banner {
   width: 100%;
-  height: 220px;
+  height: 400px;
   background-position: center;
 }
 .naam{
@@ -99,4 +100,11 @@ background-color: white;
 
 body{
   background-color: white;
+}
+.foto:hover {
+  transform: scale(1.3);
+}
+.foto{
+  transition: transform .2s;
+  
 }
