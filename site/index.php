@@ -36,10 +36,10 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
     <div class="recept-blok">
 
-<div class="naam">
-  <h3><?php echo $recept["naam"] ?></h3>
-
-</div>
+  <div class="naam">
+   <h3><?php echo $recept["naam"] ?></h3>
+  </div>
+  <div class="fotoo">
   <img src="images/<?php echo $recept["plaatje"] ?>">
 </div>
 
