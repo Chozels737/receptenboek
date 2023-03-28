@@ -1,14 +1,9 @@
 <?php
-
 require "database.php";
-
-
 //de sql query
 $sql = "SELECT * FROM lebanese_keuken";
-
 //hier wordt de query uitgevoerd met de database
 $result = mysqli_query($conn, $sql);
-
 $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 ?>
 
@@ -42,13 +37,13 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <div class="naam">
   <h3><?php echo $recept["naam"] ?></h3>
 </div>
-      <img src="images/<?php echo $recept["plaatje"] ?>">
+  <img src="images/<?php echo $recept["plaatje"] ?>">
   </div>
 
   <?php endforeach  ?>
 
 
 
-  
+
 </body>
 </html>
