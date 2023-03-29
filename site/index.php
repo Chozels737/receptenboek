@@ -21,14 +21,9 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <body>
     <header>
         <img class="logo" src="/images/logo.png" />
-        <nav> 
-          <ul class="nav__links">
-            <li><a href="index.php">home</a></li>
-            <li><a href="index.php">contact</a></li>
-            <li><a href="index.php">contact</a></li>
-          </ul>
-        </nav>
-        <a class="cta" href="contact.php"><button>Contact</button></a>
+        <nav>
+          <?php include 'nav.php'?>
+      </nav>
       </header> 
       <img class="banner" src="/images/banner1.png" />
 <div class="flex-container">
