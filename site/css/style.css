@@ -18,6 +18,7 @@ main{
   width: 100%;
   gap:30px;
   justify-content: center;  
+  margin-bottom:100px;
 }
 
 .flex-container > div {
@@ -48,4 +49,8 @@ main{
 }
 
 
-  
+.naam{
+  color: black;
+  text-align: center;
+
+}

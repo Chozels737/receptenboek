@@ -31,16 +31,17 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <?php foreach ($all_recepten as $recept) : ?>
 
       <div class="recept-blok">
-
+         <a href="recept.php?id=<?php echo $recept['recepten_id'] ?>">
           <div class="naam">
+           
             <h3>
-            <?php echo $recept["naam"] ?>
+             <?php echo $recept["naam"] ?>
             </h3>
           </div>
-          <a href="recept.php"><img src="images/<?php echo $recept["plaatje"] ?>"></a>
+          <img src="images/<?php echo $recept["plaatje"] ?>">
       </div>
-        
-        <?php endforeach  ?>
+        </a>
+        <?php endforeach?>
       </div>
 </body>
 
