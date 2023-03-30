@@ -23,24 +23,31 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <img class="logo" src="/images/logo.png" />
         <nav>
           <?php include 'nav.php'?>
-      </nav>
-      </header> 
-      <img class="banner" src="/images/banner1.png" />
-<div class="flex-container">
+        </nav>
+    </header> 
+    <img class="banner" src="/images/banner1.png" />
+    <div class="flex-container">
 
-  <?php foreach ($all_recepten as $recept) : ?>
+      <?php foreach ($all_recepten as $recept) : ?>
 
-    <div class="recept-blok">
+      <div class="recept-blok">
 
-  <div class="naam">
-   <h3><?php echo $recept["naam"] ?></h3>
-  </div>
-  <img src="images/<?php echo $recept["plaatje"] ?>">
-</div>
-
-  <?php endforeach  ?>
-
-
+          <div class="naam">
+            <h3>
+            <?php echo $recept["naam"] ?>
+            </h3>
+          </div>
+          <a href="recept.php"><img src="images/<?php echo $recept["plaatje"] ?>"></a>
+      </div>
+        
+        <?php endforeach  ?>
+      </div>
 </body>
+
+
+<footer>
 <?php include 'footer.php'?>
+
+</footer>
+
 </html>
