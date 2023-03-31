@@ -27,7 +27,7 @@ $recept = mysqli_fetch_assoc($result);
         <nav>
           <?php include 'nav.php'?>
         </nav>
-    </header> 
+</header> 
     <?php echo $recept['naam'] ?>
     <img src="images/<?php echo $recept["plaatje"] ?>">
 </body>
