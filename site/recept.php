@@ -28,8 +28,40 @@ $recept = mysqli_fetch_assoc($result);
           <?php include 'nav.php'?>
         </nav>
 </header> 
+<div class="Naam">
     <?php echo $recept['naam'] ?>
-    <img src="images/<?php echo $recept["plaatje"] ?>">
+</div>
+<div class="Foto">
+    <img src="images/<?php echo $recept["plaatje"] ?>">    
+</div>
+<div class="gerecht">
+</div>
+
+
+<div class="afkoeltijd">
+
+</div>
+
+<div class="introductie">
+
+</div>
+
+<div class="ingredienten">
+
+</div>
+
+<div class="bereidingstijd">
+
+</div>
+
+<div class="personen">
+
+</div>
+
+<div class="moeilijk">
+
+</div>
+
 </body>
 <footer>
 <?php include 'footer.php'?>
